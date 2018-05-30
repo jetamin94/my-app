@@ -26,7 +26,7 @@ export default class MarketCap extends Component {
   render() {
     return (
       <div>
-        <h3>CMC</h3>
+        <h3>CMC Chart</h3>
         <table>
           <tbody>
             <tr>

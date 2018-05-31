@@ -25,7 +25,12 @@ export default class ToDoList extends Component {
       userInput: ''
     })
   }
-
+  // componentWillMount() {
+  //   const script = document.createElement("script");
+  //   script.src = "https://files.coinmarketcap.com/static/widget/currency.js";
+  //   script.async = true;
+  //   document.body.appendChild(script);
+  // }
   render() {
     return (
       <div className="to-do-list-main">
